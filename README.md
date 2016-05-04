@@ -7,9 +7,9 @@
   4:此时应用就可以跑通了。如有疑问，请联系我。
 2：联系方式
 -------------
-  邮箱：zhangjianqiang@dync.cc
+  邮箱：xiongxuesong@dync.cc
 3：Demo演示
 -------------
-[AnyRTCDemo](https://www.pgyer.com/u9F9)
+[AnyRTCDemo](http://www.pgyer.com/OVOA)
 所需参数截图
 ![Alt text](https://github.com/AnyRTC/AnyRTCDemo-Android/blob/master/screenshot.png)
