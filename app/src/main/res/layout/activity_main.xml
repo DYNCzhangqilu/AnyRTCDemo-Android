@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.anyrtc.dync.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="SDK Demo"
+            android:textColor="@color/black"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_live"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_view_border"
+            android:onClick="OnBtnClicked"
+            android:text="视频直播"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_m2m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_view_border"
+            android:onClick="OnBtnClicked"
+            android:text="多人通话"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_p2p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_view_border"
+            android:onClick="OnBtnClicked"
+            android:text="音频通话"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:text="@string/text"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

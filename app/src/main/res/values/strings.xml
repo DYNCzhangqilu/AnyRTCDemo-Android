@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AnyRTC</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_dialog_title">音频通话功能暂未开放</string>
+    <string name="str_dialog_msg">请拨打 021-65650071，进行咨询</string>
+    <string name="text">Powered by Shanghai BoYuan(DYNC) Electronic Technology CO.LTD</string>
+
+</resources>

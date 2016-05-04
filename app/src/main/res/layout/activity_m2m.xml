@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnyRTCMeetActivity" >
+
+	<android.opengl.GLSurfaceView
+		android:id="@+id/glview_video"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+
+
+    
+    <LinearLayout android:id="@+id/linear_main" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout android:id="@+id/linear_title" android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" android:layout_weight="0">
+            <TextView android:id="@+id/txt_pub_id" android:layout_width="match_parent"
+        		android:layout_height="wrap_content" android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linear_view" android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:orientation="vertical" android:layout_weight="1">   
+        	<LinearLayout android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:orientation="vertical" android:layout_weight="1">   
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linear_subs" android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" android:layout_weight="0">
+            <Button android:id="@+id/btn_sub_0" android:layout_width="match_parent"
+        		android:layout_height="wrap_content" android:layout_weight="1" android:text="订阅"
+        		android:onClick="OnBtnClicked"/>
+            <Button android:id="@+id/btn_sub_1" android:layout_width="match_parent"
+        		android:layout_height="wrap_content" android:layout_weight="1" android:text="订阅"
+        		android:onClick="OnBtnClicked"/>
+            <Button android:id="@+id/btn_sub_2" android:layout_width="match_parent"
+        		android:layout_height="wrap_content" android:layout_weight="1" android:text="订阅"
+        		android:onClick="OnBtnClicked"/>
+        </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout android:id="@+id/linear_btns" android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" android:layout_weight="0">   
+        	<Button android:id="@+id/btn_pub_unpub" android:layout_width="match_parent"
+        		android:layout_height="wrap_content" android:text="发布" android:layout_weight="0"
+        		android:onClick="OnBtnClicked"/>
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+
+
+</RelativeLayout>

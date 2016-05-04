@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PeoplesCallActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"
+            android:onClick="OnBtnClicked"
+            android:background="@drawable/selector_btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="多人通话"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="800000947377"
+            android:singleLine="true"
+            android:layout_marginBottom="50dp"
+            android:textColorHint="@color/green"
+            android:textColor="@color/green"/>
+
+        <Button
+            android:id="@+id/btn_switch_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_view_border"
+            android:onClick="OnBtnClicked"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:text="聊天" />
+
+    </LinearLayout>
+
+</RelativeLayout>
